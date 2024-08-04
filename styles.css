@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 0.7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+div.image {
+  margin-left: 120px;
+}
+
+div.slides {
+  margin-top: 0px;
+}
+p {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+ul.nav-item {
+  text-align: center;
+}
+div.header_right {
+  color: white;
+  margin-right: 10px;
+}
+div.carousel-indicators {
+  color: black;
+}
+.flip {
+  width: 407px;
+  height: 350px;
+  perspective: 1000px;
+  margin: 20px;
+  margin-top: 100px;
+  margin-right: 100px;
+ 
+  color: black;
+}
+.flip-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.flip-front,
+.flip-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-front {
+  background-color: white;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+.flip:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.para p {
+  
+  margin-left: 50px;
+  /* justify-content: left; */
+  text-align: left;
+  padding-right: 50%;
+  font-size: 30;
+  color:antiquewhite;
+  font-family:ui-monospace;
+}
+h3 {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.flip p {
+  font-size: 40px;
+  color: white;
+}
+.flip h1 {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.container-div {
+  display: flex;
+  align-items: center;
+}
+
+.text-div {
+  font-style:italic;
+  margin-left: 180px;
+  font-size: 25px;
+  line-height: 28px;
+
+}
+.head{
+  text-align: center;
+  color:red;
+}
+.bg{
+ 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; 
+}
+
+.para1 p{
+  margin-left: 50px;
+  /* justify-content: left; */
+  text-align: right;
+  padding-left: 50%;
+  font-size: 30;
+  color:antiquewhite;
+  font-family:ui-monospace;
+
+}
+
+
+.heading1{
+  font-size: 30px;
+  color: beige;
+  font-family: serif;
+  text-align: right;
+  padding-left: 50%;
+  
+}
